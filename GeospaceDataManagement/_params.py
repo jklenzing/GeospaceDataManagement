@@ -151,7 +151,7 @@ class Parameters(object):
 
             # Ensure we have a valid file if the user isn't creating a new one
             if self.file_path is None and (not create_new):
-                estr = ''.join(('GeospaceDataManagement is unable to locate a ',
+                estr = ''.join(('GeospaceDataParameters is unable to locate a ',
                                 'user settings file. Please check the ',
                                 'locations, "./" or "~/.gdm" for the file ',
                                 '"gdm_settings.json".'))
